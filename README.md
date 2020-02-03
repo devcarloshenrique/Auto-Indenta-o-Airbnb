@@ -5,7 +5,10 @@ Este repositório foi criado com o objetivo de registrar **ás configurações**
 
 ### Passo a passo
 
-#### Gerenciador de pacotes
+-  #### [1° Seguir passo á passo sem clonar o repositorio](#sem-clonar).
+-  #### [2° Seguir passo á passo clonando o repositorio.](#clonando).   
+
+#### <a name="sem-clonar">Gerenciador de pacotes</a>
 
 - 1° Instalar o Yarn | [ Documentação Yarn](https://legacy.yarnpkg.com/pt-BR/docs/install#windows-stable) 
 	
@@ -106,15 +109,17 @@ Este repositório foi criado com o objetivo de registrar **ás configurações**
 		"trailingComma": "es5"
 	}
 	```	
+<hr>
+
  #### Plugins
+
+- Eslint
+
+- EditorConfig for vs Code, assim que este plugin for instalado:
 	
-- EditorConfig for vs Code
-		
-	- Assim que este plugin for instalado:
+	- 1° Clique com o botão direito na raiz do projeto e selecione **generate .editorconfig**
 	
-		- 1° Clique com o botão direito na raiz do projeto e selecione **generate .editorconfig**
-	
-		- 2° Dentro deste arquivo, cole o seguinte código.
+	- 2° Dentro deste arquivo, cole o seguinte código.
 
 Garante que os editores de texto serão configurados da mesma forma  
 
@@ -128,10 +133,9 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true		
 ```
-	
-- ESlint 
+<hr>
 
- #### Configurando VScode
+ #### <a name="clonando">Configurando VScode</a>
 	
 - 1° Aperte  **ctrl + shift + o** e pesquise por **>json**.
 	- Abra o **Preferences: Open Settings** e adicione este código.
@@ -164,17 +168,20 @@ insert_final_newline = true
 ]
 ```	
 
-#### Identando todos os arquivos de uma única vez:
-
-	yarn eslint --fix pastaDesejada --ext .js
+<hr>
 
 #### Testando se deu tudo certo:
 
 - Abra o arquivo teste.js, tente salvar o aquivo, caso a auto indentação tenha funcionado, supimpa.
 -  Em caso de erro tente repetir o passo a passo ou fechar e abrir o vscode. 
-	
 
-   ### Autor
+#### Identando todos os arquivos de uma única vez:
+
+	yarn eslint --fix pastaDesejada --ext .js
+
+<hr>
+
+### Autor
    
 | [<img src="https://avatars2.githubusercontent.com/u/57951744?s=180&v=4"><br><sub>@devcarloshenrique</sub>](https://github.com/devcarloshenrique) |
 | :---: |
