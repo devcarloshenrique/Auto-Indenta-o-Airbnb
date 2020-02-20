@@ -5,9 +5,10 @@ Este repositório foi criado com o objetivo de registrar **ás configurações**
 
 ### Passo a passo
 
+  Após clonar o repositório, digite no terminal ``yarn`` para baixar as depedências.
+
 -  #### [1° Seguir passo á passo sem clonar o repositorio](#sem-clonar).
 -  #### [2° Seguir passo á passo clonando o repositorio.](#clonando).   
-    - Após clonar o repositório, digite no terminal ``yarn`` para baixar as depedências.
     
 
 #### <a name="sem-clonar">Gerenciador de pacotes</a>
