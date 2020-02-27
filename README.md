@@ -1,4 +1,5 @@
 
+
 # Auto identação padrão Airbnb | VScode.
 
 Este repositório foi criado com o objetivo de registrar **ás configurações** necessárias para á auto indentação no padão Airbnb.
@@ -170,6 +171,34 @@ insert_final_newline = true
 	}
 ]
 ```	
+
+<hr>
+
+- #### Configurando o Eslint
+	- 1° Digite o comando no terminal
+	
+		`` yarn eslint --init ``
+	
+	- 2 ° Siga marcando ás seguintes alternativas:
+	
+		- To check syntax, find problems, and enforce code style
+	
+	- 2.1 Está opção varia de acordo com o padrão que estamos utilizando, como vamos utilizar o **sucrase**, marcamos a opção abaixo
+		- Javascript modules (import/export)
+		- None of these
+		- Does your project use Typescript (Y/n) ? 
+		
+			 **R:** N
+			 
+	- 2.2 Nesta opção utilize o espaço para desmarcar e marcar apenas a opção **Node**.
+		- Where does your code run ?
+		- Use a popular style guide ?
+				
+			 **R:** Airbnb
+		- Javascript 
+		- Would you like to install them now with npm (Y/n)?
+		
+			**R:**  Y
 
 <hr>
 
