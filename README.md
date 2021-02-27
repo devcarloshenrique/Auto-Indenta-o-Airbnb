@@ -1,6 +1,6 @@
 
 
-# Auto identação padrão Airbnb | VScode.
+# Identação Airbnb | VScode.
 
 Este repositório foi criado com o objetivo de registrar **ás configurações** necessárias para á auto indentação no padão Airbnb.
 
